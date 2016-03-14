@@ -1,0 +1,120 @@
+/* Large desktop */
+@media (min-width: 1281px) { 
+.mlf {
+  margin-left: 195px;
+ 
+}
+.mlt{
+	 margin-top: -55px;
+}
+.pdb50{
+	/* padding-bottom:50px; */
+	
+}
+
+.ml150{
+	margin-left:150px;
+}
+ }
+@media (min-width: 768px) and (max-width: 979px) { 
+.mainspan6{
+	width:100%
+}
+.tblet-float-left{
+	float:left;
+	width:100%;
+}
+.sm-mr-150{
+	margin-left:25%;
+}
+.about-area{
+	padding-top:40px;
+}
+.feedback-area{
+	padding-top:50px;
+}
+.ml-sm{
+	margin-left:24%;
+}
+.blog-area .container .row .col-md-4 .rotate45.sm-mt{
+	margin-top:70px;
+	
+}
+.blog-area .container .row .col-md-4 .rotate45.sm-pb{
+	padding-bottom:70px;
+	
+}
+.clients-area .container .row{
+	margin-top:20px;
+}
+.clients-area .container .row .col-sm-6{
+	padding:20px 0;
+}
+.single-icon {
+  margin: 15px;
+}
+p{
+	font-size:14px;
+}
+.portfolio_contents ul li {
+  width: 33%;
+}
+.portfolio_filter {
+  padding-bottom: 40px;
+}
+
+.icon-center {
+  width: 40%;
+}
+ }
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.ml150{
+	margin-left:0;
+}
+.sm-mr-150{
+	margin-left:0px;
+}
+.about-area{
+	padding-top:40px;
+}
+.feedback-area{
+	padding-top:50px;
+}
+.icon-center{
+	width:310px;
+	margin:auto;
+}
+.single-icon {
+  margin: 15px 25px;
+}
+.clients-area .container .row{
+	margin-top:20px;
+}
+.clients-area .container .row .col-sm-6{
+	padding:20px 0;
+}
+.portfolio_contents ul li {
+  width: 50%;
+}
+p{
+	font-size:16px;
+}
+.icon-center {
+  width: 40%;
+}
+
+}
+ .portfolio_filter {
+  padding-bottom: 30px;
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.portfolio_filter {
+  padding-bottom: 20px;
+}
+.icon-center {
+  width: 40%;
+}
+
+	}
